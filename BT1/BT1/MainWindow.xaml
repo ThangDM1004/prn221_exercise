@@ -1,0 +1,26 @@
+﻿<Window x:Class="BT1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BT1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid>
+        <Label Content="Weight" HorizontalAlignment="Left" Margin="256,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.184,0.787"/>
+        <Label Content="Height" HorizontalAlignment="Left" Margin="256,192,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.637,-0.245"/>
+        <TextBox HorizontalAlignment="Left" Name="weight_number" Margin="328,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Caculation
+                " HorizontalAlignment="Left" Margin="420,235,0,0" VerticalAlignment="Top" Height="26" Width="59" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Name="height_number" Margin="328,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="bmi" TextAlignment="Center" HorizontalAlignment="Left" Margin="240,274,0,0" VerticalAlignment="Top" Height="96" Width="296" FontSize="80"/>
+        <Label Content="BMI Caculator" FontSize="40" HorizontalAlignment="Left" Margin="266,36,0,0" VerticalAlignment="Top" Height="72" Width="290"/>
+        <Label Content="kg" HorizontalAlignment="Left" Margin="453,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="cm" HorizontalAlignment="Left" Margin="453,192,0,0" VerticalAlignment="Top"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="293,236,0,0" VerticalAlignment="Top" Height="25" Width="59" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Name="status" TextAlignment="Center" Margin="240,398,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="50" Width="296" Height="83"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,301,0,0" TextWrapping="Wrap" Text="BMI: " VerticalAlignment="Top" Height="53" Width="145" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,413,0,0" TextWrapping="Wrap" Text="Status: " VerticalAlignment="Top" Height="53" Width="145" FontSize="40"/>
+        
+    </Grid>
+</Window>
